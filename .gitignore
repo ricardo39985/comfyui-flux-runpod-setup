@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+*token*
+*secret*
+*.pem
+*.key
+
+# Model/checkpoint files
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+*.pb
+*.h5
+
+# Generated media and private references
+outputs/
+input/
+refs/
+references/
+identity_refs/
+outfit_refs/
+environment_anchors/
+approved_masters/
+training_sets/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+*.avi
+
+# Python/cache
+__pycache__/
+*.pyc
+.cache/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
